@@ -7,22 +7,32 @@
 1. Clonar el repo
 
 2. Ejecutar
+
 ```
 yarn install
 ```
 
 3. Tener CLI instalado
+
 ```
 npm i -g @nestjs/cli
 ```
 
 4. Levantar BD
+
 ```
 docker-compose up -d
+```
+
+4. Reconstruir la BD usando el SEED
+
+```
+http://localhost:3000/api/v2/seed
 ```
 
 ---
 
 ## Stack Usado
-* MongoDB
-* Nest
+
+- MongoDB
+- Nest

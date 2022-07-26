@@ -5,7 +5,7 @@
 GET {{hostname}}/{{resource}} HTTP/1.1
 
 ### GET ONE
-GET {{hostname}}/{{resource}}/Charmane HTTP/1.1
+GET {{hostname}}/{{resource}}/600 HTTP/1.1
 
 ### CREATE
 POST {{hostname}}/{{resource}} HTTP/1.1
