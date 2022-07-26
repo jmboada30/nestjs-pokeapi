@@ -40,7 +40,24 @@ GET http://localhost:3000/api/v2/seed
 
 ---
 
-## Stack Usado
+# Levantar en produccion usando Docker
+
+1. Crear el archivo **.env.prod**
+2. Llenar el archivo **.env.prod** usando como referencia archivo **.env.example**
+3. Crear la imagen con Docker
+
+```sh
+docker-compose -f docker-compose.prod.yaml --env-file .env.prod --build
+```
+
+4. Levantar Docker en Prod
+
+```sh
+docker-compose -f docker-compose.prod.yaml --env-file .env.prod up -d
+```
+
+# Stack Usado
 
 - MongoDB
 - Nest
+- Docker
