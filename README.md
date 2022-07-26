@@ -24,10 +24,18 @@ npm i -g @nestjs/cli
 docker-compose up -d
 ```
 
-4. Reconstruir la BD usando el SEED
+5. Crear las variables de entorno **.env** usando el **.env.example** como ejemplo
+
+6. Lavantar la app en desarrollo
 
 ```
-http://localhost:3000/api/v2/seed
+yarn start:dev
+```
+
+7. Reconstruir la BD usando el SEED
+
+```
+GET http://localhost:3000/api/v2/seed
 ```
 
 ---
