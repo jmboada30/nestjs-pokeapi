@@ -2,7 +2,7 @@
 @resource = pokemon
 
 ### GET ALL
-GET {{hostname}}/{{resource}} HTTP/1.1
+GET {{hostname}}/{{resource}}?offset=0&limit=2 HTTP/1.1
 
 ### GET ONE
 GET {{hostname}}/{{resource}}/600 HTTP/1.1
